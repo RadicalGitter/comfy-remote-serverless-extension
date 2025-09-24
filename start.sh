@@ -12,7 +12,7 @@ export MODELS_DIR="${MODELS_DIR:-$WORKDIR/models}"
 #    Each line: either "https://github.com/owner/repo.git" or "https://github.com/owner/repo.git@TAG_OR_COMMIT"
 # 2) NODES_LIST: multi-line string with same content as above
 # 3) comfyui_nodes.txt: repo-relative fallback file (same format)
-export NODES_URL="${NODES_URL:-}"
+export NODES_URL="https://gist.github.com/RadicalGitter/e4976210b0728f7164e2ceab49d06622#file-gistfile1-txt"
 export NODES_LIST="${NODES_LIST:-}"
 # Optional: extra curl headers (one per line) for private endpoints, e.g.:
 # NODES_HEADERS='Authorization: Bearer <TOKEN>'
