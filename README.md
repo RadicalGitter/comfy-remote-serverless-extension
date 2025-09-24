@@ -1,4 +1,4 @@
-# Comfy Remote Serverless Extension (for me)
+# Comfy Remote Serverless Extension
 
 Adds a **Remote: ON/OFF** toggle to ComfyUI that hijacks the **Queue** button and runs the prompt on a **RunPod Serverless** worker.  
 While the job runs, shows a **fake KSampler steps progress bar** (configurable).  
