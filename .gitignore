@@ -1,0 +1,11 @@
+# secrets/keys
+*.pem
+*.ppk
+*.key
+id_ed25519*
+.ssh/
+
+# bulky artifacts
+models/
+output/
+remote_results/
